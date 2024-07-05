@@ -14,6 +14,10 @@ p {
     text-indent: 10px;
 }
 
+.indent {
+  margin-left: 40px;
+}
+
 .row {
     width: 100%;
     margin-left: 0;
@@ -30,5 +34,9 @@ p {
 
 .del {
   text-decoration: line-through;
+}
+
+.del {
+  color: red;
 }
 
