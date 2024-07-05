@@ -36,3 +36,11 @@ p {
   color: red;
 }
 
+.hi[rend='indent'] {
+  text-indent: 20px;
+} 
+
+br {
+  line-break: normal;  
+}
+

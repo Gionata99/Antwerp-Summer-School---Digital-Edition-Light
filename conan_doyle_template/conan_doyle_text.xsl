@@ -62,6 +62,18 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
+
+    <xsl:template match="tei:hi[@rend='sup']">
+        <sup>
+            <xsl:apply-templates/>
+        </sup>
+    </xsl:template>
+
+    <xsl:template match="tei:hi[@rend='indent']">
+        <indent>
+            <xsl:apply-templates/>
+        </indent>
+    </xsl:template>
     
     <!-- add additional templates below, for example to transform the tei:l in <br/> empty elements, tei:hi[@rend = 'sup'] in <sup> elements, the underlined text, additions with the attribute "overwritten" etc. -->
 

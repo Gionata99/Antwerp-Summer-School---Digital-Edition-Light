@@ -25,13 +25,11 @@
                     </li>
                     <li>Number of deletions: <xsl:value-of select="count(//tei:del)" />
                     </li>
-                    <li> Number of interlinear additions: <xsl:value-of
-                        select="count(//tei:add[@place='interlinear')]" />
+                    <li> Number of supralinear additions: <xsl:value-of
+                        select="count(//tei:add[@place='supralinear'])" />
                 </li>
                 
 
-                    <!-- add other list items in which you count things, such as the supralinear
-                    additions only, or additions made with pencil -->
                 </ul>
             </div>
         </div>
