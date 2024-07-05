@@ -70,12 +70,29 @@
     </xsl:template>
 
     <xsl:template match="tei:hi[@rend='indent']">
-        <indent>
+        <div class='indent'>
             <xsl:apply-templates/>
-        </indent>
+        </div>
     </xsl:template>
-    
-    <!-- add additional templates below, for example to transform the tei:l in <br/> empty elements, tei:hi[@rend = 'sup'] in <sup> elements, the underlined text, additions with the attribute "overwritten" etc. -->
+
+    <xsl:template match="tei:br">
+        <br>
+            <xsl:apply-templates/>
+        </br>
+    </xsl:template>
+
+    <xsl:template match="tei:unclear">
+        <unclear>
+            <xsl:apply-templates/>
+        </unclear>
+    </xsl:template>
+
+    <xsl:template match="tei:fw">
+        <div class="fw">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+
 
     
 </xsl:stylesheet>

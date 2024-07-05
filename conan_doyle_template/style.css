@@ -1,6 +1,12 @@
 body {
 
 }
+
+head {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
 .starter-template {
   padding: 40px 15px;
   text-align: center;
@@ -12,6 +18,11 @@ img {
 
 p {
     text-indent: 10px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+text {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .row {
@@ -36,11 +47,18 @@ p {
   color: red;
 }
 
-.hi[rend='indent'] {
+.indent {
   text-indent: 20px;
-} 
-
-br {
-  line-break: normal;  
 }
 
+unclear {
+  color: orange;
+}
+
+sup {
+  color: blue;
+}
+
+.fw {
+  text-align: right;
+}
